@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.jus-con {
+    justify-content: center;
+
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+
+
+
+
+/* colors */
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #0084fd;
+}
+
+.bg-blue {
+    background-color: #0084fd;
+}
