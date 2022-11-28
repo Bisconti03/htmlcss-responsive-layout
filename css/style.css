@@ -1,6 +1,22 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
 /* header */
 
+.big-card {
+    width: 65%;
 
+    
+}
+
+.card {
+    width: 30%;
+    
+}
 
 
 

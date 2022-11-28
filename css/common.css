@@ -6,19 +6,40 @@
 
 
 
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+
 
 /* flex */
 .flex {
     display: flex;
 }
 
-.jus-con {
-    justify-content: center;
+.jus-con-space {
+    justify-content: space-between;
 
 }
 
 .align-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 
@@ -38,4 +59,45 @@
 
 .bg-blue {
     background-color: #0084fd;
+}
+
+.bg-light-blue {
+    background-color: #b5ddff;
+}
+
+
+.light-purp {
+    color: #9792e4;
+}
+
+
+.bg-light-purp {
+    background-color: #9792e4;
+}
+
+.bg-almost-black {
+    background-color: #333333;
+}
+
+
+
+
+/* paddings */
+
+
+
+
+
+/* Margins */
+
+
+
+.margin-top-3rem {
+    margin-top: 3rem;
+}
+
+
+
+.margin-bottom-3rem {
+    margin-top: 3rem;
 }
