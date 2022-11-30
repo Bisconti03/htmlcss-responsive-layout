@@ -53,6 +53,10 @@
     flex-direction: column;
 }
 
+.row-gap {
+    row-gap: 20px;
+}
+
 
 
 
@@ -99,7 +103,9 @@
 
 /* paddings */
 
-
+.padding-top-2 {
+    padding-top: 2rem;
+}
 
 
 
@@ -116,3 +122,4 @@
 .margin-bottom-3rem {
     margin-top: 3rem;
 }
+

@@ -3,23 +3,51 @@
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 /* header */
-
+header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
 .big-card {
-    width: 65%;
-
+    width: calc(((100% / 3) * 2) - 1.5rem);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     
+}
+
+.intro {
+    margin: 0 -0.75rem;
 }
 
 .card {
-    width: 30%;
-    
+    width: calc((100% / 3) - 1.5rem);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+img {
+    width: 100%;
 }
 
 .phone-img {
-    width: 50%;
+    width: 60%;
+    padding-left: 10px;
+    
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.card {
+    padding: 2rem;
 }
 
 
@@ -40,8 +68,14 @@
 
 
 
+
 /* footer */
 
 
+
+
+
+
+/* media query */
 
 
