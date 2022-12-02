@@ -1,7 +1,18 @@
 .container {
-    width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+.container-2 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-3 {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -14,6 +25,16 @@ header {
     position: sticky;
     top: 0;
     z-index: 30;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+
+
+.ham-menu {
+    display: none;
 }
 .big-card {
     width: calc(((100% / 3) * 2) - 1.5rem);
@@ -37,8 +58,9 @@ img {
 }
 
 .phone-img {
-    width: 60%;
+    width: 80%;
     padding-left: 10px;
+    padding-top: 30px;
     
 }
 
@@ -63,6 +85,66 @@ h3 {
 
 
 
+.white-box {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.img-circle {
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.planning-img-2 {
+    width: 70%;
+}
+
+
+
+.card-planning-1 {
+    width: 50%;
+}
+
+.card-planning-2 {
+    width: 50%;
+}
+
+.special-button{
+  background-color: #9792e4;
+  color: black;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+
+}
+
+
+.linkedin-button {
+    color: white;
+    background-color: #9792e4;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+
+.special-get-started {
+    color: #9792e4;
+    background-color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+
+}
 
 
 
@@ -79,3 +161,89 @@ h3 {
 /* media query */
 
 
+@media screen and (max-width:992px) {
+
+    .container {
+        max-width: 870px;
+    }
+
+    .container-2 {
+        max-width: 870px;
+    }
+
+    .container-3 {
+        max-width: 700px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+
+    .big-card {
+        
+        flex-wrap: wrap;
+    }
+
+    .big-card > div {
+        width: 100%;
+    }
+    .planning-section {
+        flex-wrap: wrap;
+    }
+    .card-planning-1 {
+        width: 100%;
+    }
+
+    .card-planning-2 {
+        width: 100%;
+    }
+
+
+
+    .benefits > .card {
+        width: calc((100% / 2) - 1.5rem);
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container {
+        max-width:500px;
+    }
+
+    .container-2 {
+        max-width: 500px;
+    }
+
+    .container-3 {
+        max-width: 500px;
+    }
+
+    .big-card {
+        width: calc(100%  - 1.5rem);
+
+    }
+
+    .card  {
+        width: calc(100% - 1.5rem);
+    }
+
+    .partners {
+        flex-direction: column;
+    }
+
+    .benefits > .card {
+        width: calc(100% - 1.5rem);
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+
+}        

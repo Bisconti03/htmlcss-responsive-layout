@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+</head><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,900&display=swap'); </style>
 <body>
     <!-- header -->
     <header class="bg-blue">
@@ -19,16 +21,21 @@
                 </div>
 
                 <nav>
-                   <a href="">Planning</a>
-                   <a href="">Testimonials</a>
-                   <a href="">Features</a>
-                   <a href="">About Us</a>
-                   <a href="">
-                    <button class="bg-white border-round">
+                   <a class="white " href="">Planning</a>
+                   <a class="white margin-left-1-5" href="">Testimonials</a>
+                   <a class="white margin-left-1-5" href="">Features</a>
+                   <a class="white margin-left-1-5" href="">About Us</a>
+                   <a class="white margin-left-1-5" href="">
+                    <button class="bg-white border-round no-border padding-btn-nav ">
                         Get Started
                     </button>
                    </a> 
+                   
                 </nav>
+
+                <a class="ham-menu" href="">
+                    <i class="fa-solid fa-bars white"></i>
+                   </a>
             </div>
         </div>
     </header>
@@ -40,14 +47,14 @@
     <main>
 
         <div class="container">
-            <div class=" flex jus-con-space wrap margin-top-3rem intro row-gap">
-                <div class="big-card flex jus-con-space bg-light-blue  bg-white border-round   ">
-                    <div class="flex flex-column w-50 ">
+            <div class=" flex jus-con-space wrap margin-top-3rem intro row-gap wrap">
+                <div class="big-card  flex jus-con-space bg-light-blue  bg-white border-round   ">
+                    <div class="flex  flex-column w-50 padding-left-2  ">
                         <h3 class="blue padding-top-2">Get a demo application</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga laudantium error ad numquam explicabo porro officiis repellendus excepturi nisi velit?</p>
                         <a href="">
-                            <button class="bg-blue">
-                                App Store
+                            <button class="bg-blue white border-round no-border padding-btn-general margin-top-3rem">
+                                <i class="fa-brands fa-apple margin-right-1"></i> App Store
                             </button>
                         </a>
                     </div>
@@ -87,44 +94,84 @@
 
         </div>
 
-        <section class="bg-light-purp margin-top-3rem">
-            <div class="container">
-                <div class="flex jus-con-space flex-end ">
-                    <div class="w-50">
-                        <img class="planning-1" src="img/planning1.png" alt="">
+        <section class=" bg-light-purp margin-top-3rem">
+            
+                <div class=" planning-section flex align-end    container-2 ">
+                    <div class=" card-planning-1 padding-side-1-5">
                         <div>
-                            <h3 class="margin-top-3rem">Strategic Planning</h3>
-                            <p class="margin-top-3rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos impedit excepturi hic esse ipsum nihil neque est aliquam nulla.</p>
+                            <img class=" margin-top-3rem" src="img/planning1.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="margin-top-5rem bold font-1-5 white">Strategic Planning</h3>
+                            <p class="margin-top-3rem margin-bottom-3rem white">Egestas dui id omare arcu odio. In tellus integer feugiat
+                                scelerisque varius morbi enim nunc. Habitasse platea
+                                dictumst quisque sagittis. Interdum velit euismod in
+                                pellentesque massa placerat duis- Quis viverra nibh cras
+                                pulvinar mattis.</p>
                         </div>
                     </div>
                     
-                    <div class="w-50 flex-end">
-                        <img class="planning-2 " src="img/planning2.png" alt="">
+                    <div class="card-planning-2 white-box margin-bottom-3rem padding-side-1-5 ">
+                        <img class="planning-img-2 padding-top-2 " src="img/planning2.png" alt="">
+                        <h3 class="bold font-1-5">App Development</h3>
+                        <p class="margin-bottom-3rem italic ">Develop an on-demand app for your delivery
+                            business to reach your targeted customers
+                            without any interruption.
+                        </p>
+                        <button class="special-button margin-bottom-3rem">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </button>
+                       
                     </div>
                 </div>
 
-            </div>
+            
         </section>
 
 
         <section class="margin-top-3rem">
             <div class="container">
-                <h4 class="text-center">Test</h4>
-                <h3 class="text-center">Test</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptatibus soluta nam voluptate non pariatur voluptates iusto corrupti quae ipsum maiores magni velit, sint eum itaque quia repellendus dolore porro!</p>
+                <p class="text-center">TESTIMONIALS</p>
+                <h3 class="text-center light-purp font-3">We are committed expert partners</h3>
+                <p class="margin-bottom-3rem text-center bold">We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in
+                    helping us to get it right.</p>
 
                 <div class="flex jus-con-space flex-column">
-                    <div class="flex jus-con-space bg-light-purp align-center border-round">
-                        <div>Test</div>
-                        <div>Test</div>
+                    <div class="flex partners jus-con-space bg-light-purp align-center border-round padding-side-1-5">
+                        <div>
+                            <img class="img-circle margin-up-dwn-1-5" src="img/testimonial1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="white margin-left-1-5">Pharetra vel turpis nunc eget lorem. Quisque id diam vel quam elementum pulvinar etiam.
+                                Urna porttitor rhoncus dolor purus non enim praesent elementum.</p>
+                                <h4 class="white margin-left-1-5 margin-top-1-5">
+                                   NAT REYNOLD
+                                </h4>
+                        </div>
                     </div>
-                    <div class="flex jus-con-space bg-light-purp align-center border-round">
-                        <div>Test</div>
-                        <div>Test</div>
+                    <div class="flex partners jus-con-space bg-light-purp align-center border-round margin-top-bottom-2 padding-side-1-5 ">
+                        <div>
+                            <img class="img-circle margin-up-dwn-1-5" src="img/testimonial2.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="white margin-left-1-5">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh pulvinar proin-</p>
+                                <h4 class="white margin-left-1-5 margin-top-1-5">
+                                    CELIA ALMEDA
+                                </h4>
+                        </div>
                     </div>
-                    <div class="flex jus-con-space bg-light-purp align-center border-round">
-                        <div>Test</div>
-                        <div>Test</div>
+                    <div class="flex partners jus-con-space bg-light-purp align-center border-round padding-side-1-5">
+                        <div>
+                            <img class="img-circle margin-up-dwn-1-5" src="img/testimonial3.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="white margin-left-1-5">Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin.
+                                Nibh nisl condimentum id venenatis a condimentum.</p>
+                                <h4 class="white margin-left-1-5 margin-top-1-5">
+                                    ROB ROBERTS
+                                </h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,16 +179,70 @@
 
 
         <section class="margin-top-3rem bg-light-purp">
-            <div class="container">
-                <h2 class="text-center">Test</h2>
+            <div class="container ">
+                <h2 class="text-center white bold font-2 padding-top-bottom-4">Benefits of working with us</h2>
 
-                <div class="flex wrap jus-con-space">
-                    <div class="card bg-white border-round">Test</div>
-                    <div class="card bg-white border-round">Test</div>
-                    <div class="card bg-white border-round">Test</div>
-                    <div class="card bg-white border-round">Test</div>
-                    <div class="card bg-white border-round">Test</div>
-                    <div class="card bg-white border-round">Test</div>
+                <div class="flex wrap jus-con-space benefits">
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">01</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">02</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">03</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">04</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">05</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
+                    <div class="card bg-white border-round margin-up-dwn-1-5">
+                        <h2 class="font-4 light-purp">06</h2>
+                        <h4 class="light-purp">High Quality</h4>
+                        <p>Vitae suscipit tellus mauris a diam
+                            maecenas sed enim ut- Mauris augue
+                            neque gravida in termentum. Baesent
+                            semper feuqiat nibh sed pulvinar proin id
+                            venenatis.</p>
+                            <button class="bg-light-purp white border-round no-border padding-btn-general">more</button>
+                    </div>
                 </div>
                 
             </div>
@@ -151,23 +252,57 @@
 
         <section class="margin-top-3rem">
             <div class="container">
-                <div class="flex jus-con-space">
-                    <div class="big-card">Test</div>
-                    <div class="card">Test</div>
+                <div class="flex jus-con-space about-us">
+                    <div class="big-card padding-side-1-5">
+                        <h2 class="font-4 light-purp margin-bottom-3rem">
+                            About Us
+                        </h2>
+                        <p class="line-height margin-bottom-3rem">
+                            Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque
+eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam
+lacus suspendisse faucibus interdum posuere Iorem. Egestas tellus rutrum tellus
+pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit
+scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum
+velit euismod in pellentesque massa placerat duis.
+                        </p>
+
+                        <p class="line-height">
+                            Quis viverra nibh cras pulvinar mattiss Ornare arcu dui vivamus arcu fetis
+bibendum ut tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras
+fermentum odio. Dignissim diam quis enim lobortis scelerisque. Tellus molestie
+nunc non blandit massa enim. the text box. Click again or double click to start
+editing the text.
+                        </p>
+                    </div>
+                    <div class="card flex flex-column align-center padding-side-1-5">
+                        <img class="img-circle" src="img/about.jpg" alt="">
+                        <h3 class="light-purp font-2">I help companies
+                            tincidunt tortor
+                            aliquam nulla
+                            facilisi cras
+                            fermentum odio.
+                        </h3>
+                        <button class="linkedin-button" >
+                            <i class="fa-brands fa-linkedin"></i>
+                            Find me on linkedin
+                        </button>
+
+                    </div>
                 </div>
             </div>
         </section>
 
 
         <section class="margin-top-3rem bg-light-purp">
-            <div class="container">
-                <div class="flex flex-column align-center">
-                    <h5 >Test</h5>
-                    <h4 >Test</h4>
-                    <h2 >Test</h2>
-                    <p >Test</p>
-                    <button >Test</button>
-                    <p> Test</p>
+            <div class="container-3">
+                <div class="flex flex-column align-center padding-side-3">
+                    <p class="white padding-top-2">GET STARTED</p>
+                    <h4 class="font-2 white margin-top-3rem" >Simple, Trasnsparent Pricing</h4>
+                    <h2 class="font-5 yellow margin-top-3rem" >It's Free!</h2>
+                    <p class="white margin-top-1-5" >We're still in beta and we will be for awhile. As we add more
+                        functionality, we'll look into other plans with more controls.</p>
+                    <button class="special-get-started bold margin-top-1-5" >Get Started</button>
+                    <p class="white margin-top-1-5 margin-bottom-3rem "> Copyright 2021 Boolean • Classe XX • Privacy Policy</p>
                 </div>
             </div>
 
@@ -178,10 +313,12 @@
 
     <!-- footer -->
     <footer class="bg-almost-black">
-        <div class="container">
+        <div class="container-3">
             <div>
-                <p class="text-center">Test</p>
-                <p class="text-center">Test</p>
+                <p class="text-center white padding-top-bottom-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi maiores minima vitae vero nulla pariatur impedit!</p>
+                <p class="text-center white padding-top-bottom-4 padd padding-bottom-3">scelerisque mauris pellentesque Boolean
+                    careers</p>
             </div>
         </div>
     </footer>
